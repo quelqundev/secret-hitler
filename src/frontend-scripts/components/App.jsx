@@ -463,8 +463,6 @@ export class App extends React.Component {
 				>
 					{this.props.notesActive && <Gamenotes value={this.state.notesValue} changeNotesValue={this.changeNotesValue} />}
 
-					{process.env.NODE_ENV !== 'production' && <DevHelpers />}
-
 					<Menu userInfo={this.props.userInfo} gameInfo={this.props.gameInfo} midSection={this.props.midSection} />
 
 					{(() => {
