@@ -229,10 +229,6 @@ class Menu extends React.Component {
 								<a rel="noopener noreferrer" target="_blank" href="https://github.com/cozuya/secret-hitler/wiki">
 									Wiki
 								</a>{' '}
-								|{' '}
-								<a rel="noopener noreferrer" target="_blank" href="https://discord.gg/secrethitlerio">
-									Discord
-								</a>
 							</span>
 						</div>
 						<div className="item right menu">
